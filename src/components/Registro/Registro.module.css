@@ -1,0 +1,44 @@
+.container{
+    border-radius: 20px;
+    margin: 50vh 50vw;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+    height: 320px;
+    width: 400px;
+}
+
+.formContainer{
+    position: absolute;
+    margin-top: 50px;
+}
+
+.input{
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    height: 30px;
+    width: 200px;
+    padding: 0px 10px;
+    border: 0;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+    transition: .4s;
+}
+
+input:focus{
+    outline:0;
+}
+
+.text{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -25px;
+    color:grey;
+    transition: .4s;
+}
+
+.input:focus ~ .text,
+.input:not(:placeholder-shown) ~ .text{
+    transform: scale(0.7) translate(-12px,-24px);
+    color: rgb(0, 148, 10);
+}

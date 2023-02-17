@@ -1,0 +1,65 @@
+.profile{
+    position: absolute;
+    background-color: white;
+    height: 50vh;
+    width: 20vw;
+    margin: 185px 30px;
+    border-radius: 50px;
+}
+
+.img{
+    position: absolute;
+    border-radius: 200px;
+    height: 200px;
+    margin-top: -90px;
+    margin-left: 35px;
+    box-shadow: 0px 0px 25px black;
+}
+
+.imgmini{
+    margin-top: 3px;
+    margin-left: 5px;
+    border-radius: 200px;
+    height: 50px;
+}
+
+.muro{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 400px;
+    height: fit-content;
+    width: 800px;
+}
+
+.publi{
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.name{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -50px;
+    color: black;
+}
+
+.desc{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -30px;
+    color: rgb(112, 112, 112);
+}
+
+.reacciones{
+    position: absolute;
+    margin-left: 670px;
+    height: 25px;
+    width: 100px;
+    margin-top: -44px;
+}
+
+.reaccion{
+    position: absolute;
+    margin-top: 200px;
+}

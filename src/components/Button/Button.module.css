@@ -1,0 +1,13 @@
+.male{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    background-color: aqua;
+}
+
+.female{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    background-color: blueviolet;
+}

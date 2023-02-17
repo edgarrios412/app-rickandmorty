@@ -1,0 +1,173 @@
+.profile{
+    position: absolute;
+    background-color: white;
+    height: 70vh;
+    width: 20vw;
+    margin: 185px 30px;
+    border-radius: 50px;
+}
+
+.img{
+    position: absolute;
+    border-radius: 200px;
+    height: 200px;
+    margin-top: -90px;
+    margin-left: 35px;
+    box-shadow: 0px 0px 8px black;
+
+}
+
+.imgmini{
+    margin-top: 3px;
+    margin-left: 5px;
+    border-radius: 200px;
+    height: 50px;
+}
+
+.muro{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 400px;
+    height: fit-content;
+    width: 800px;
+}
+
+.publi{
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.name{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -50px;
+    color: black;
+}
+
+.desc{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -30px;
+    color: rgb(112, 112, 112);
+}
+
+.reacciones{
+    position: absolute;
+    margin-left: 670px;
+    height: 25px;
+    width: 100px;
+    margin-top: -44px;
+}
+
+.reaccion{
+    position: absolute;
+    margin-top: 200px;
+}
+
+.description{
+    margin-left: 1vw;
+    width: 18vw;
+    text-align: center;
+    margin-top: 125px;
+    position: absolute;
+}
+
+.description h5{
+    margin-bottom: 15px;
+    color: grey;
+}
+
+.tags{
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+}
+
+.taghuman{
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(30, 112, 156);
+    padding: 3px 8px;
+}
+
+.tag{
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(162, 162, 162);
+    padding: 3px 8px;
+}
+
+
+.tagmale{
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(16, 71, 238);
+    padding: 3px 8px;
+}
+
+.tagfemale{
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(238, 16, 116);
+    padding: 3px 8px;
+}
+
+.tagalive{
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(16, 238, 42);
+    padding: 3px 8px;
+}
+
+.tagdead{
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(209, 35, 35);
+    padding: 3px 8px;
+}
+
+
+.container{
+    text-align: center;
+    margin-top: 115%;
+    width: 20vw;
+    height: 14vh;
+}
+
+.image{
+    z-index: 90;
+    border-radius: 10px;
+    height: 45px;
+    width: 60px;
+    transition: 0.5s;
+}
+
+.image:hover{
+    transform: scale(4.7) translate(0px,-10px);
+}
+
+.imgcontainer{
+    display:inline-block;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 45px;
+    width: 60px;
+}
+
+.donar{
+    border: 0;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    position: absolute;
+    margin-left: 35px;
+    padding: 7px 0px;
+    width: 200px;
+    margin-top: 5px;
+    cursor:pointer;
+}

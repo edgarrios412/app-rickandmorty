@@ -1,0 +1,10 @@
+.container{
+    margin-top: 13vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: 50%;
+    width: 85vw;
+    transform: translateX(-50%);
+    row-gap: 50px;
+}

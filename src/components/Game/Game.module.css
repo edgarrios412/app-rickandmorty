@@ -1,0 +1,69 @@
+.container{
+    border-radius: 20px;
+    height: 150px;
+    width: 685px;
+    background-color: white;
+    transition: 1s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.img{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    position: absolute;
+    z-index: 3;
+    height: 150px;
+    width: 150px;
+}
+
+.container::after{
+    background: rgb(168,207,8);
+    background: linear-gradient(317deg, rgba(168,207,8,1) 0%, rgba(161,194,24,1) 47%, rgba(107,156,14,1) 100%);
+    margin-left: 75px;
+    position: absolute;
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    content: "PLAY";
+    height: 150px;
+    width: 0%;
+    transition: 1s ease-in-out;
+    clip-path: polygon(0% 0%, 0% 100%, 90% 100%, 100% 0%);
+
+}
+
+.container:hover::after{
+    width: 100%; 
+}
+
+.title{
+    text-shadow: 0px 0px 3px green;
+    text-align: center;
+    color: black;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 520px;
+    font-size: 1.6rem;
+}
+
+.desc{
+    text-align: center;
+    color: black;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 60px;
+    width: 470px;
+    font-size: 1.1rem;
+}
+
+.highscore{
+    text-align: center;
+    color: rgb(66, 66, 66);
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 120px;
+    width: 470px;
+    font-size: 0.8rem;
+}

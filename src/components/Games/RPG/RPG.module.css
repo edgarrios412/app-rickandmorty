@@ -1,0 +1,28 @@
+
+
+.container{
+    margin-left: 25%;
+    height: 50vh;
+    width: 25vw;
+    position: absolute;
+    margin-top: 100px;
+    background-color: black;
+    border-radius:20px;
+}
+
+.enemy{
+    display: flex;
+    background-image: url("../../../img/enemy.png");
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hp{
+    text-align: center;
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
