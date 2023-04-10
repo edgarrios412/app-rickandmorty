@@ -12,7 +12,7 @@ export default function SearchBar(props) {
    return (
       <div className={style.container}>
          <div className={style.containerForm}>
-         <input onChange={handleChange} className={style.input} type='search' placeholder='Buscar personaje'/>
+         <input onChange={handleChange} className={style.input} type='search' placeholder='Buscar por ID'/>
          <button className={style.button} onClick={() => props.onSearch(character)}><span className={style.lupa}/></button>
          </div>
       </div>
